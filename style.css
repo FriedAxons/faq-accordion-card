@@ -11,19 +11,29 @@ body {
 }
 
 main {
+  position: relative;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   max-height: 650px;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 30px;
-  box-shadow: 0px 16px 18px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.3);
 }
 
 footer {
+  margin-top: auto;
   color: white;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.desktop-background-pattern {
+  position: absolute;
+  z-index: -1;
+}
+
+.woman-online-desktop-image {
 }
