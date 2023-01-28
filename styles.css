@@ -41,7 +41,7 @@ body {
 .box-illustration {
   position: relative;
   top: 2%;
-  left: 5.1%;
+  left: 5.3%;
   z-index: 3;
 }
 
@@ -58,10 +58,18 @@ body {
 }
 
 .dropdown-question {
+  position: relative;
   margin: 10px 0;
   text-align: left;
   padding-bottom: 30px;
   border-bottom: solid 1px hsl(240, 5%, 91%);
+}
+
+.arrow::after {
+  content: url("images/icon-arrow-down.svg");
+  position: absolute;
+  top: -4%;
+  right: 15px;
 }
 
 .answer {
