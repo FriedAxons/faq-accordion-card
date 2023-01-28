@@ -16,25 +16,37 @@ body {
 .container {
   display: flex;
   background-color: white;
-  height: 70%;
-  width: 70%;
+  height: 65%;
+  width: 65%;
   border-radius: 25px;
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 
 .bg-illustration {
   position: relative;
+  transform: scale(1.15);
+  top: 16%;
+  left: -14%;
   z-index: 2;
 }
 
 .bg-shadow {
   position: absolute;
-  left: -20%;
-  top: -43%;
-  overflow: hidden;
+  left: -43%;
+  top: -40%;
 }
 
 .box-illustration {
+  position: relative;
+  top: 2%;
+  left: 5%;
   z-index: 3;
+}
+
+.answer {
+  display: none;
+}
+
+footer {
 }
